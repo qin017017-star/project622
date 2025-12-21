@@ -3,30 +3,20 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>github</title>
+    <title>期末(點擊計數器)</title>
     <link rel="stylesheet" href="./style.css">
 
   </head>
     
   <body>
-  <body onLoad="show()">
-<div id="ncyu">
-<img id="ico">
+  <div class="card">
+  <h1>點擊挑戰賽</h1>
+  <!-- 顯示數字的地方 -->
+  <div id="counter">0</div>
+  <!-- 按鈕 -->
+  <button onclick="addCount()">點我加 1</button>
+  <button onclick="resetCount()" class="reset-btn">歸零</button>
 </div>
-<h2>NCYU公佈欄</h2>
-<h3>標題</h3>
-<input type="text" id="title" sixe="50"></input>
-<h3>內容</h3>
-<textarea id ="content" cols="50"></textarea>
-<br>
-<button id="btn">送出</button>
-<div id="list">
-  <div id="news">
-    <h2>期末考重要訊息</h2>
-    <p>全校期末考全面All Pass!</p><hr>
-  </div>
-</div>
-</body>
     <script  src="./script.js"></script>
 
   </body>
